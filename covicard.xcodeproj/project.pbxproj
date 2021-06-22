@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1757309326811ED5007F9597 /* ModelsR4 in Frameworks */ = {isa = PBXBuildFile; productRef = 1757309226811ED5007F9597 /* ModelsR4 */; };
+		17602BB9267E7A9400490437 /* healthcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17602BB8267E7A9400490437 /* healthcard.swift */; };
+		17602BBC267E7AF900490437 /* JOSESwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17602BBB267E7AF900490437 /* JOSESwift */; };
+		17ADB887267D7A3C007B80FD /* covicardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ADB886267D7A3C007B80FD /* covicardApp.swift */; };
+		17ADB88B267D7A3F007B80FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17ADB88A267D7A3F007B80FD /* Assets.xcassets */; };
+		17ADB88E267D7A3F007B80FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17ADB88D267D7A3F007B80FD /* Preview Assets.xcassets */; };
+		17ADB896267D7A9B007B80FD /* ScannerV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ADB895267D7A9B007B80FD /* ScannerV.swift */; };
+		17AE8B1A2680903400D22F6A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AE8B192680903400D22F6A /* Launch Screen.storyboard */; };
+		17FBC17C267FABC500AB8FB6 /* CardV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FBC17B267FABC500AB8FB6 /* CardV.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17602BB8267E7A9400490437 /* healthcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = healthcard.swift; sourceTree = "<group>"; };
+		17ADB883267D7A3C007B80FD /* covicard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = covicard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ADB886267D7A3C007B80FD /* covicardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = covicardApp.swift; sourceTree = "<group>"; };
+		17ADB88A267D7A3F007B80FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17ADB88D267D7A3F007B80FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17ADB88F267D7A3F007B80FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17ADB895267D7A9B007B80FD /* ScannerV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerV.swift; sourceTree = "<group>"; };
+		17AE8B192680903400D22F6A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		17FBC17B267FABC500AB8FB6 /* CardV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardV.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17ADB880267D7A3C007B80FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1757309326811ED5007F9597 /* ModelsR4 in Frameworks */,
+				17602BBC267E7AF900490437 /* JOSESwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17ADB87A267D7A3C007B80FD = {
+			isa = PBXGroup;
+			children = (
+				17ADB885267D7A3C007B80FD /* covicard */,
+				17ADB884267D7A3C007B80FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17ADB884267D7A3C007B80FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17ADB883267D7A3C007B80FD /* covicard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17ADB885267D7A3C007B80FD /* covicard */ = {
+			isa = PBXGroup;
+			children = (
+				17ADB886267D7A3C007B80FD /* covicardApp.swift */,
+				17FBC17B267FABC500AB8FB6 /* CardV.swift */,
+				17602BB8267E7A9400490437 /* healthcard.swift */,
+				17ADB895267D7A9B007B80FD /* ScannerV.swift */,
+				17ADB88A267D7A3F007B80FD /* Assets.xcassets */,
+				17AE8B192680903400D22F6A /* Launch Screen.storyboard */,
+				17ADB88F267D7A3F007B80FD /* Info.plist */,
+				17ADB88C267D7A3F007B80FD /* Preview Content */,
+			);
+			path = covicard;
+			sourceTree = "<group>";
+		};
+		17ADB88C267D7A3F007B80FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17ADB88D267D7A3F007B80FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17ADB882267D7A3C007B80FD /* covicard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17ADB892267D7A3F007B80FD /* Build configuration list for PBXNativeTarget "covicard" */;
+			buildPhases = (
+				17ADB87F267D7A3C007B80FD /* Sources */,
+				17ADB880267D7A3C007B80FD /* Frameworks */,
+				17ADB881267D7A3C007B80FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = covicard;
+			packageProductDependencies = (
+				17602BBB267E7AF900490437 /* JOSESwift */,
+				1757309226811ED5007F9597 /* ModelsR4 */,
+			);
+			productName = covicard;
+			productReference = 17ADB883267D7A3C007B80FD /* covicard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17ADB87B267D7A3C007B80FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					17ADB882267D7A3C007B80FD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 17ADB87E267D7A3C007B80FD /* Build configuration list for PBXProject "covicard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17ADB87A267D7A3C007B80FD;
+			packageReferences = (
+				17602BBA267E7AF900490437 /* XCRemoteSwiftPackageReference "JOSESwift" */,
+				1757309126811ED4007F9597 /* XCRemoteSwiftPackageReference "FHIRModels" */,
+			);
+			productRefGroup = 17ADB884267D7A3C007B80FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17ADB882267D7A3C007B80FD /* covicard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17ADB881267D7A3C007B80FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17AE8B1A2680903400D22F6A /* Launch Screen.storyboard in Resources */,
+				17ADB88E267D7A3F007B80FD /* Preview Assets.xcassets in Resources */,
+				17ADB88B267D7A3F007B80FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17ADB87F267D7A3C007B80FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17ADB896267D7A9B007B80FD /* ScannerV.swift in Sources */,
+				17FBC17C267FABC500AB8FB6 /* CardV.swift in Sources */,
+				17602BB9267E7A9400490437 /* healthcard.swift in Sources */,
+				17ADB887267D7A3C007B80FD /* covicardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17ADB890267D7A3F007B80FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17ADB891267D7A3F007B80FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17ADB893267D7A3F007B80FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"covicard/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWNYM87BB9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = covicard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordanmann.covicard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17ADB894267D7A3F007B80FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"covicard/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWNYM87BB9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = covicard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordanmann.covicard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17ADB87E267D7A3C007B80FD /* Build configuration list for PBXProject "covicard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ADB890267D7A3F007B80FD /* Debug */,
+				17ADB891267D7A3F007B80FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17ADB892267D7A3F007B80FD /* Build configuration list for PBXNativeTarget "covicard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17ADB893267D7A3F007B80FD /* Debug */,
+				17ADB894267D7A3F007B80FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1757309126811ED4007F9597 /* XCRemoteSwiftPackageReference "FHIRModels" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/FHIRModels";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+		17602BBA267E7AF900490437 /* XCRemoteSwiftPackageReference "JOSESwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airsidemobile/JOSESwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1757309226811ED5007F9597 /* ModelsR4 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1757309126811ED4007F9597 /* XCRemoteSwiftPackageReference "FHIRModels" */;
+			productName = ModelsR4;
+		};
+		17602BBB267E7AF900490437 /* JOSESwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17602BBA267E7AF900490437 /* XCRemoteSwiftPackageReference "JOSESwift" */;
+			productName = JOSESwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17ADB87B267D7A3C007B80FD /* Project object */;
+}
